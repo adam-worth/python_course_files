@@ -53,8 +53,6 @@ def parse_web_page_and_clean_urls():
     print('Recieving: ', clean_second_tag)
     return clean_second_tag
 
-
 for i in range(5):
-    global global_url
     global_url = parse_web_page_and_clean_urls()
     print(global_url)
